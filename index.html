@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mesa de Votación</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Registro de Votantes</h1>
+<form action="registrar.php" method="post">
+Cédula: <input type="text" name="cedula" required><br>
+Nombre: <input type="text" name="nombre" required><br>
+Apellido: <input type="text" name="apellido" required><br>
+Centro de Votación: <input type="text" name="centrovotacion" required><br>
+Número de Mesa: <input type="number" name="numeromesa" required><br>
+<input type="submit" value="Registrar">
+</form>
+<h1>Consulta de Mesa de Votación</h1>
+<form action="consultar.php" method="post">
+Cédula: <input type="text" name="cedula" required><br>
+<input type="submit" value="Consultar">
+</form>
+</body>
+</html>
